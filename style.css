@@ -81,3 +81,19 @@ nav a {
     background-color: #e64a19; /* Darker orange on hover */
 }
 
+#features {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
