@@ -19,3 +19,33 @@ a {
     text-decoration: none;
     color: #333
 }
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+
+    /* THE MAGIC PART */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Sticky Header */
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+}
