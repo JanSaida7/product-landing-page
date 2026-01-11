@@ -97,3 +97,24 @@ nav a {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* When screen is smaller than 768px (Tablets & Phones) */
+@media (max-width: 768px) {
+    
+    /* 1. Make the Hero text smaller so it fits */
+    #hero h1 {
+        font-size: 2rem; 
+    }
+
+    /* 2. Stack the Flexbox vertically */
+    /* This forces the header logo and nav to stack on top of each other */
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* 3. Make features take full width */
+    .feature-item {
+        width: 100%; /* Full width on mobile */
+    }
+}
