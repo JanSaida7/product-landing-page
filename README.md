@@ -17,3 +17,5 @@ A responsive product landing page built to learn modern CSS layouts and Frontend
 
 ## 📸 Screenshots
 *(You can upload screenshots to your repo and link them here later)*
+![alt text](image.png)
+![alt text](image-1.png)
